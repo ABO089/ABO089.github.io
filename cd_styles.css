@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 800px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.congrats-message {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.countdown-wrapper {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.countdown-box {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 120px;
+}
+
+.countdown-value {
+    display: block;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.countdown-label {
+    font-size: 1em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.hover-image {
+    display: none;
+    position: absolute;
+    top: 20px; /* Adjusted to make the image visible */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    background: rgba(0, 0, 0, 0.8);
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.hover-image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+#showText {
+    cursor: pointer;
+}
+
+.add-calendar-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-calendar-button:hover {
+    background-color: #0056b3;
+}

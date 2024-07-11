@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geburtstagsquiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 id="question">Frage</h1>
+        <div class="buttons">
+            <button class="button yes-button" onclick="answerQuestion(true)">JA</button>
+            <button class="button no-button" onclick="answerQuestion(false)">NEIN</button>
+        </div>
+        <div id="comment" class="comment"></div>
+        <button id="restart" class="button restart-button" onclick="restartQuiz()" style="display:none;">Neustarten</button>
+        <button id="showButton" class="button show-button" onclick="goToShow()" style="display:none;">Hier geht es zur Show!</button>
+        <div class="puzzle-container">
+            <!-- 10 Puzzle Pieces -->
+            <div class="puzzle-piece" id="piece1"></div>
+            <div class="puzzle-piece" id="piece2"></div>
+            <div class="puzzle-piece" id="piece3"></div>
+            <div class="puzzle-piece" id="piece4"></div>
+            <div class="puzzle-piece" id="piece5"></div>
+            <div class="puzzle-piece" id="piece6"></div>
+            <div class="puzzle-piece" id="piece7"></div>
+            <div class="puzzle-piece" id="piece8"></div>
+            <div class="puzzle-piece" id="piece9"></div>
+            <div class="puzzle-piece" id="piece10"></div>
+        </div>
+    </div>
+</body>
+</html>

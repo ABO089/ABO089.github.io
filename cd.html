@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown zur Show</title>
+    <link rel="stylesheet" href="cd_styles.css">
+    <script defer src="cd_script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the <span id="showText">Show!</span></h1>
+        <p class="congrats-message">Herzlichen Glückwunsch mein Bester! Bereite dich auf einen epischen Abend vor. Wir gehen altersgerecht zu den Twenty One Pilots in Hamburg! Es wird ein unvergessliches Erlebnis!</p>
+        <div class="countdown-wrapper">
+            <div class="countdown-box">
+                <span id="days" class="countdown-value">0</span>
+                <span class="countdown-label">Tage</span>
+            </div>
+            <div class="countdown-box">
+                <span id="hours" class="countdown-value">0</span>
+                <span class="countdown-label">Stunden</span>
+            </div>
+            <div class="countdown-box">
+                <span id="minutes" class="countdown-value">0</span>
+                <span class="countdown-label">Minuten</span>
+            </div>
+            <div class="countdown-box">
+                <span id="seconds" class="countdown-value">0</span>
+                <span class="countdown-label">Sekunden</span>
+            </div>
+        </div>
+        <button id="addCalendar" class="add-calendar-button">Termin im Google Kalender speichern</button>
+        <div class="hover-image" id="hoverImage">
+            <img src="saal.png" alt="Saalansicht">
+        </div>
+    </div>
+</body>
+</html>

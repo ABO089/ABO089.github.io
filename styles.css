@@ -1,0 +1,117 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('bg1.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 800px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.button {
+    width: 140px;
+    height: 140px;
+    border-radius: 20px;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    background: linear-gradient(145deg, #4CAF50, #3c8d41);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5), -5px -5px 15px rgba(255, 255, 255, 0.2);
+}
+
+.button:hover {
+    background: linear-gradient(145deg, #45a049, #368639);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5), -5px -5px 20px rgba(255, 255, 255, 0.2);
+}
+
+.no-button {
+    background: linear-gradient(145deg, #e50914, #d80c12);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5), -5px -5px 15px rgba(255, 255, 255, 0.2);
+}
+
+.no-button:hover {
+    background: linear-gradient(145deg, #cf0810, #bf070f);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5), -5px -5px 20px rgba(255, 255, 255, 0.2);
+}
+
+.restart-button {
+    background: linear-gradient(145deg, #555, #333);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5), -5px -5px 15px rgba(255, 255, 255, 0.2);
+    display: none;
+}
+
+.show-button {
+    background: linear-gradient(145deg, #007bff, #0056b3);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5), -5px -5px 15px rgba(255, 255, 255, 0.2);
+    display: none;
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.comment {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.puzzle-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    z-index: -1;
+}
+
+.puzzle-piece {
+    background-image: url('bg.jpg');
+    background-size: 500%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#piece1 { background-position: 0% 0%; }
+#piece2 { background-position: 20% 0%; }
+#piece3 { background-position: 40% 0%; }
+#piece4 { background-position: 60% 0%; }
+#piece5 { background-position: 80% 0%; }
+#piece6 { background-position: 0% 50%; }
+#piece7 { background-position: 20% 50%; }
+#piece8 { background-position: 40% 50%; }
+#piece9 { background-position: 60% 50%; }
+#piece10 { background-position: 80% 50%; }
