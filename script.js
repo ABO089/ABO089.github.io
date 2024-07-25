@@ -1,12 +1,12 @@
 const questions = [
-    { question: "Hast du jemals in der Öffentlichkeit auf einer Bühne gesungen?", answer: false, comment: "Gut für die Menschheit und trotzdem könnte man ja... xD" },
     { question: "Magst du lieber Punk oder Rockmusik?", answer: true, comment: "Jede andere Antwort wäre auch falsch gewesen!" },
+    { question: "Stagediving?", answer: true, comment: "Gehört auch dazu! " },
     { question: "Hast du schon einmal ein Instrument gespielt?", answer: true, comment: "Beeindruckend, oder auch nicht..." },
     { question: "Kommen Kraftklub aus Berlin?", answer: false, comment: "KARL-MARX-STADT" },
     { question: "Liebst du es, zu reisen?", answer: true, comment: "Wer nicht?" },
     { question: "Bist du ein Morgenmensch?", answer: false, comment: "Dachte ich mir!" },
-    { question: "Warst du jemals vor 10 Uhr auf einem Konzert? (Festivals zählen nicht!)", answer: false, comment: "Wirklich nicht? hmmm..." },
-    { question: "Hattest du jemals Lampenfieber?", answer: true, comment: "Das wird klasse" },
+    { question: "Fängt jeder gute Abend mit einem Feigling an?", answer: true, comment: "Immer wenn du dabei bist ;)" },
+    { question: "Ist nach einem Konzert frei nehmen, ein muss?", answer: false, comment: "Verkatert arbeiten, beste!" },
     { question: "Kannst du tanzen?", answer: false, comment: "Keine Sorge, ich auch nicht!" },
     { question: "Freust du dich auf die Show?", answer: true, comment: "Natürlich tust du das!" }
 ];
